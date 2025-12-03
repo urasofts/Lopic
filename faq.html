@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lopic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        /* Estilos para el FAQ */
+        .faq-container {
+            max-width: 800px;
+            margin: 40px auto;
+        }
+        .faq-item {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .faq-question {
+            background: #f8f8f8;
+            padding: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            padding: 0 15px;
+            background: #fff;
+            border-left: 4px solid #007bff;
+            transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+        }
+        .faq-question.active + .faq-answer {
+            max-height: 150px; /* Ajustar según la longitud del texto */
+            padding: 15px;
+        }
+        .faq-question i {
+            transition: transform 0.3s ease-in-out;
+        }
+        .faq-question.active i {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <!-- NAV -->
+    <header class="bg-primary text-center py-8">
+        <nav class="navbar border-bottom border-body align-items-center" style="background-color: #ffffff;">
+            <div class="container-fluid">
+                <a class="navbar-brand aicon" href="index.html">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1477/1477931.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    LOPIC
+                </a>
+                <a href="sobrenos.html" class="col-md-1" style="color: hsl(0, 0%, 100%); background-color: #4abdff; border-radius: 50px;">¿Que Somos?
+                    <i class="fa-solid fa-building fa-sm" style="color: #1178ec;"></i>
+                </a>
+                <!-- Dropdown -->
+                <div class="dropdown col-md-1">
+                    <a class="btn btn-light dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: hsl(0, 0%, 100%); background-color: #4abdff; border-radius: 50px;" >
+                        
+                        Servicios <i class="fa-solid fa-briefcase" style="color: #1178ec;"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="publicidad.html" style="color: #569CD6">Publicidad <i class="fa-solid fa-rectangle-ad fa-sm"></i></a></li>
+                        <li><a class="dropdown-item" href="fotoydiseño.html" style="color: #569CD6">Fotografia y Diseño <i class="fa-solid fa-image fa-sm"></i></a></li>
+                        <li><a class="dropdown-item" href="papeleria.html" style="color: #569CD6">Papeleria <i class="fa-solid fa-file-contract fa-sm"></i> </a></li>
+                    </ul>
+                </div>
+
+                <a href="contacto.html" class="col-md-1" style="color: hsl(0, 0%, 100%); background-color: #4abdff; border-radius: 50px;">Contacto
+                    <i class="fa-solid fa-phone fa-sm" style="color: #1178ec;"></i>
+                </a>
+                <a href="faq.html" class="col-md-1" style="color: hsl(0, 0%, 100%); background-color: #4abdff; border-radius: 50px;">FAQ
+                    <i class="fa-solid fa-question fa-sm" style="color: #1178ec; "></i>
+                </a>  
+            </div>
+        </nav>
+        
+        <br>
+        <div class="align-items: center">
+            <img src="Lopiclogo.JPG" alt="Foto de perfil" class="rounded-circle" width="120">
+            <h2 class="text-white text-center">LOPIC</h2>
+            <p class="lead text-white text-center"> Fotografía | Diseño | Publicidad </p>
+        </div>
+    </header>
+
+    <!-- Sección de FAQ -->
+    <main>
+        <div class="faq-container">
+            <h2 class="text-center">FAQ</h2>
+            <div class="faq-item">
+                <div class="faq-question">¿Cuánto tardan en entregar las fotocopias y los módulos infantiles? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">Por lo general los modulos suelen tardan entre 3 a 5 dias, Las fotocopias no suelen tardar mucho (como minimo 2 o 4 minutos)</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Se pueden personalizar los módulos infantiles con nombres o temas específicos? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">Si, pueden ser personalizados con nombres o temas especiales. </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Cuál es la forma más rápida de contactar con la empresa para solicitar un servicio?<i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">La forma mas rapida seria encontrar la empresa (Aunque tenemos disponibilidad en nuestro WhatsApp)</div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; Lopic, Urabá - Carepa | Fotografía y Diseño | Publicidad </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Background.js"></script>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+
+                if (question.classList.contains('active')) {
+                    answer.style.maxHeight = '0px';
+                    answer.style.padding = '0 15px';
+                    question.classList.remove('active');
+                } else {
+                    document.querySelectorAll('.faq-answer').forEach(ans => {
+                        ans.style.maxHeight = '0px';
+                        ans.style.padding = '0 15px';
+                    });
+                    document.querySelectorAll('.faq-question').forEach(q => q.classList.remove('active'));
+
+                    answer.style.maxHeight = '150px'; /* Ajusta según el contenido */
+                    answer.style.padding = '15px';
+                    question.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

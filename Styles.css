@@ -1,0 +1,231 @@
+body {
+    font-family: Bahnschrift;
+    
+    background-image: image-set('https://wallpapers.com/images/featured/4k-blanco-i308ljad82204626.webp');
+}
+
+header{
+    width: 100%;
+    height: 350px; /* Ajusta según necesites */
+    background-size: cover;
+    background-position: center;
+
+
+    background-image: url('Keel-billed_Toucan_\(16201157519\).jpg'); 
+}
+
+
+.card {
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#projects .row {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.progress {
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    height: 1.5rem;
+}
+
+
+.progress-bar:hover {
+    background-color: #ff9800; 
+}
+
+.card1 {
+    transition: transform 0.3s ease; 
+    border-radius: 20px;
+    
+}
+.card2 {
+    transition: transform 0.3s ease; 
+    border-radius: 20px;
+
+    
+}
+
+.card3 {
+    transition: transform 0.3s ease; 
+    border-radius: 20px;
+    
+}
+ /* HOVERS CARTAS*/
+
+.card1:hover {
+    transform: translateY(-10px); 
+    color: hwb(19 0% 21%);
+    background-color: rgb(255, 187, 0);
+
+}
+
+.card2:hover {
+    transform: translateY(-10px); 
+    color: hwb(209 0% 43%);
+    background-color: #05aaaf;
+
+}
+
+.card3:hover {
+    transform: translateY(-10px); 
+    color: hsl(164, 100%, 21%);
+    background-color: rgb(114, 114, 114);
+
+}
+/* HOVERS Botones De Las Cartas */
+.btnp:hover {
+    transition: transform 0.1s ease;
+    transform: translateY(-5px); 
+    background-color: #ff3300;
+    color: white;
+}
+
+.btnfd:hover {
+    transition: transform 0.1s ease;
+    transform: translateY(-5px); 
+    background-color: #1c60dd;
+}
+
+.btnpa:hover {
+    transition: transform 0.1s ease;
+    transform: translateY(-5px); 
+    background-color: hsl(138, 95%, 22%);
+}
+
+.btnp{
+    background-color: hsl(19, 100%, 50%);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* HOVERS Parrafos*/
+.publici:hover{
+    transition: transform 0.3s ease;
+    transform: translateY(-10px); 
+    color: hwb(19 0% 21%);
+}
+.fotoydise:hover{
+    transition: transform 0.3s ease;
+    transform: translateY(-10px); 
+    color: hwb(209 0% 43%);
+}
+.papeleria:hover{
+    transition: transform 0.3s ease;
+    transform: translateY(-10px);
+    color: rgb(22, 119, 62);
+}
+
+.parraf1:hover{
+    transition: transform 0.1s ease;
+    transform: translateY(-3px); 
+    color: #209292;
+    border-radius: 0.25rem;
+}
+
+.parraf2:hover{
+    transition: transform 0.1s ease;
+    transform: translateY(-3px); 
+    color: #209292;
+    border-radius: 0.25rem;
+}
+
+
+
+/* HOVERS Iconos y Links */
+.a:hover{
+    color: #194b3e;
+}
+.contactanos:hover{
+
+    transition: transform 0.3s ease;
+    transform: translateY(-10px); 
+    color: hsl(0, 100%, 52%);
+}
+
+.adv:hover{
+    transition: transform 0.3s ease;
+    transform: translateY(-10px); 
+    color: hsl(9, 100%, 50%);
+}
+.fyd:hover{
+    transition: transform 0.3s ease;
+    transform: translateY(-10px); 
+    color: hsl(216, 83%, 45%);
+}
+.pap:hover{
+    transition: transform 0.3s ease;
+    transform: translateY(-10px); 
+    color: hsl(143, 92%, 15%);
+}
+.aicon:hover{
+    transition: transform 0.1s ease;
+    transform: translateY(-3px); 
+    color: #00eeff;
+}
+.linkqs:hover{
+    color: hsl(216, 87%, 30%);
+    transition: transform 0.2s ease;
+    transform: translateY(-5px);
+}
+.linki:hover{
+    color: #014557;
+    transition: transform 0.2s ease;
+    transform: translateY(-5px);
+}
+.whasap:hover{
+    transition: transform 0.1s ease;
+    transform: translateY(-3px); 
+    color: hwb(115 11% 57%);
+}
+.correoe:hover{
+    transition: transform 0.1s ease;
+    transform: translateY(-3px); 
+    color: hsl(0, 100%, 50%);
+}
+.tephone:hover{
+    transition: transform 0.1s ease;
+    transform: translateY(-3px); 
+    color: hsl(229, 100%, 50%);
+}
+.locatio:hover{
+    transition: transform 0.1s ease;
+    transform: translateY(-3px); 
+    color: #274a94;
+}
+
+
+
+/* HOVERS  */
+:hover{
+    
+}
+
+.titulo1{
+    
+}
+
+
+
+
+
+.titulo2{
+    
+}
+
+.titulo3{
+    
+}
